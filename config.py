@@ -17,7 +17,7 @@ LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/NoxxOP/ShrutiMusic")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Iam-Toxicc/ShrutiMusic")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
@@ -38,7 +38,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(os.getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 
-STRING1 = os.getenv("STRING_SESSION", None)
+STRING1 = os.getenv("STRING_SESSION", "BQJFDxcAEDZqWNtPEg9nbtHsjWwRv6eKOESQTcKRrA8BMuevsT7MfA_viWeCnNJ1HMzgQB8LjI83_CP3mzIE_Q7n8JKiPD_bSpcmkWYrbZrmX6RLIvsQf4Iu8839CU2ZK5yuW7laDMSuGWOt85nyU6p-LHpWlpn2-Eyx5BXYR9HKXgmIhW6GvyKyHdntRDd0s-eqw5ore3Z7q_KeqC4yetbltgKk_85V36sKuK4_lckwk0vhRjRjRtqqgKN2cOsq2-Ga1BIoj-jXvNcj7IBPhZRUulQLaqeU3yiAyNlnstY0d4vg2n4IwCzBJbzvubHWXcp0HugbhSKBS6QAoBQCzfiVs9oUPwAAAAHlpgBoAA")
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
